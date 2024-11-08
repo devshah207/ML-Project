@@ -1,6 +1,6 @@
 ## sys module in python provides various func. and variables used to manipulate diff. parts of Py RTE
+# from src.logger import logging
 import sys
-from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     ## returns 3 things. First two are of no use. But third will give info like on which file error occured, on which line no etc.
@@ -22,5 +22,11 @@ class CustomException(Exception):
         return self.error_message
     
 
+# if __name__ == "__main__":
 
+#     try: 
+#         a = 1/0
+#     except Exception as e:
+#         logging.info("Divide by Zero Error")
+#         raise CustomException(e,sys)
         

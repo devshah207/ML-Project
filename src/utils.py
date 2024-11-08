@@ -1,1 +1,0 @@
-## functionalities used in a common way for an entire application.
