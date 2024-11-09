@@ -162,4 +162,4 @@ cython_debug/
 #.idea/
 
 docs.txt
-AWSCLIV2.pkg
+AWSCLIV2
