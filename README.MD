@@ -61,11 +61,11 @@ python setup.py install
 
 ### Train the Model
 To train the model, use the following command:
-```bash
+```
 python model_training.py
 
 ### Start the web app using: 
-python app.py 
+python app.py ```
 
 ## Model Evaluation
 We tested multiple models (e.g., Linear Regression, Random Forest, Gradient Boosting) with hyperparameter tuning using Grid Search CV to find the best-performing model for predicting math scores. Evaluation metrics like MAE, MSE, and R² Score were used to assess model accuracy.
