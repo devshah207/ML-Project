@@ -69,12 +69,12 @@ python app.py
 
 
 ## Model Evaluation
-We tested multiple models (e.g., Linear Regression, Random Forest, Gradient Boosting) with hyperparameter tuning using Grid Search CV to find the best-performing model for predicting math scores. Evaluation metrics like MAE, MSE, and R2 Score were used to assess model accuracy.
+We tested multiple models (e.g., Linear Regression, Random Forest, Gradient Boosting) with hyperparameter tuning using Grid Search CV to find the best-performing model for predicting math scores. Evaluation metrics like MAE, MSE, and R² Score were used to assess model accuracy.
 
 ## Results
-The best model achieved a high level of accuracy on the test dataset and is able to predict math scores effectively based on the features provided. The model is saved as a .pkl file, which can be loaded in the Flask application for real-time predictions.
+The best model achieved a high level of accuracy on the test dataset and is able to predict math scores effectively based on the features provided. The model is saved as a `.pkl` file, which can be loaded in the Flask application for real-time predictions.
 
 ## Future Work
-Model Enhancement: Experiment with additional advanced algorithms.
-Feature Engineering: Explore more feature engineering techniques to improve prediction accuracy.
-Deployment: Deploy the web application on cloud platforms (e.g., AWS, Heroku).
+- **Model Enhancement**: Experiment with additional advanced algorithms.
+- **Feature Engineering**: Explore more feature engineering techniques to improve prediction accuracy.
+- **Deployment**: Deploy the web application on cloud platforms (e.g., AWS, Heroku).
